@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* body,html{
+    min-height: 100vh;
+     display: flex;
+   flex-wrap: wrap;
+} */
+
+.header {
+    width: 100%;
+    height: 60px;
+    background: #000;
+    padding-top: .6rem;
+    position: sticky;
+    top: 0;
+    margin: auto;
+}
+
+.search{
+    padding: 6px;
+    border: 1px solid #ccc;
+    display: block;
+    margin: 0 auto;
+    width: 70%;
+    outline: none;
+    border-radius: 2.3rem;
+    text-indent: 7px;
+}
+
+h1{
+    color: crimson;
+    text-align: center;
+    margin: 10px;
+}
+hr{
+    border: 2px solid #fec107;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+
+
+
+.container{
+    min-height: 100vh;
+    margin-bottom: .5rem;
+}
+
+article{
+    overflow: auto;
+    padding-bottom: 10px;
+}
+
+
+.grid-fluid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
+    grid-template-rows: repeat(auto-fill,minmax(300px,1fr));
+    grid-gap: .5rem;
+    margin-right: .5rem;
+    margin-left: .5rem;
+    margin-top: 10px;
+}
+
+article{
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.3);
+}
+article h3{
+    text-align: center;
+    /* margin-bottom: 1rem; */
+}
+article div{
+    text-align: center;
+    height: auto;
+    font-size: 0.5rem;
+    padding: .2rem;
+}
+article img{
+    display: block;
+   margin: auto;
+   width: 180px;
+   height: 200px;
+}
+
+article a{
+    display: block;
+    text-align: center;
+    margin-top: .8rem;
+    text-decoration: none;
+    width: 50%;
+    margin: auto;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+    margin-top: .3rem;
+}
+
+footer{
+    align-self: flex-end;
+    background: #000;
+    width: 100%;
+    height: 40px;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    font-size: .6rem;
+}
+
+
+
+
+
+
+
